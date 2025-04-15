@@ -31,6 +31,18 @@ sudo apt install ros-melodic-mavros ros-melodic-mavros-extras python-catkin-tool
 sudo -H python3 -m pip install empy jinja2 packaging toml numpy jsonschema
 ```
 
+ROS Noetic
+
+```
+sudo apt install ros-noetic-mavros ros-noetic-mavros-extras python3-catkin-tools \
+    ros-noetic-husky-gazebo python3-pip python3-dev \ 
+    libgstreamer-plugins-base1.0-dev gstreamer1.0-plugins-bad gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-ugly
+
+sudo -H python3 -m pip install empy jinja2 packaging toml numpy jsonschema
+
+pip3 install kconfiglib
+```
+
 Other dependencies
 ```
 wget https://raw.githubusercontent.com/mavlink/mavros/master/mavros/scripts/install_geographiclib_datasets.sh
